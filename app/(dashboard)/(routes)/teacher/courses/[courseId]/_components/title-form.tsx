@@ -35,12 +35,12 @@ export const TitleForm = ({initialData, courseId} : TitleFormProps) => {
     const router = useRouter();
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
         try {
-            console.log(values);
-            const response = await axios.patch(`/api/courses/${courseId}`, values);
+            await axios.patch(`/api/courses/${courseId}`, values);
             toast.success("Course updated!");
             toggleEdit();
             router.refresh();
-        } catch {
+        } catch (error) {
+            console.log("[TITLE FORM]", error);
             toast.error("Something went wrong!");
         }
     }
