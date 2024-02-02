@@ -23,7 +23,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <ConfettiProvider />
           <ToasterProvider />
-          <UserButton />
+          {/* <UserButton /> */}
           {children}
         </body>
       </html>
