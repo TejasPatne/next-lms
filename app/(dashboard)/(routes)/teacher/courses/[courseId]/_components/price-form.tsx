@@ -73,7 +73,7 @@ export const PriceForm = ({initialData, courseId} : PriceFormProps) => {
                                     <FormControl>
                                         <Input
                                             type="number"
-                                            step="1"
+                                            step="0.05"
                                             min={0}
                                             disabled={isSubmitting}
                                             placeholder="Set a price for your course"
