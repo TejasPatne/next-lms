@@ -6,7 +6,7 @@ import { db } from "@/lib/db";
 import { DataTable } from "./_components/data-table";
 import { columns } from "./_components/columns";
 
-export const CoursesPage = async () => {
+const CoursesPage = async () => {
   const { userId } = auth();
 
   if (!userId) {
