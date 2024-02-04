@@ -12,6 +12,7 @@ Check out the live demo of our LMS platform [here](https://next-lms-lovat.vercel
 ## Features 🌟
 
 - **Browse & Filter Courses:** Explore a diverse range of courses and filter them based on your preferences.
+- **Advance Search:** Implemented debouncing for the search feature, ensuring efficient and user-friendly searching.
 - **Purchase Courses using Stripe:** Seamlessly buy courses using the secure Stripe payment gateway.
 - **Mark Chapters as Completed or Uncompleted:** Keep track of your progress by marking chapters as completed or uncompleted.
 - **Progress Calculation of each Course:** Monitor your progress within each course with dynamic progress calculations.
