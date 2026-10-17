@@ -113,16 +113,6 @@ To run this project locally, follow these steps:
 - Mux for video processing 🎥
 - UploadThing for managing uploads 📤
 
-
-## Acknowledgements
-
-A special thank you to the creator of the tutorial on the [Code with Antonio YouTube Channel](https://www.youtube.com/@codewithantonio). This project was inspired and built based on the insights and guidance provided in the tutorial.
-
-I deeply appreciate the effort and dedication put into creating educational content that has empowered developers like me to bring this project to life.
-
-Thank you, Antonio!
-
-
 ## Show Your Support
 
 If you find this project helpful or interesting, please consider giving it a star! your support would mean a lot!
